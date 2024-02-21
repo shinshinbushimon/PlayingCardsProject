@@ -1,0 +1,47 @@
+<!--フロントエンドを作成しましょう。-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <!-- Bootstrap CSS のリンク -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="playingCards.css">
+</head>
+
+
+<body>
+    <div id="wholeOuter" class="bg-green col-12 d-flex justify-content-center flex-wrap text-white outer-container">
+        <div id="target" class="col-12 d-flex justify-content-center flex-wrap text-white py-2 vh-100"> 
+            <div class="col-md-4 col-8">
+                <div class="px-4 col-12">
+                    <p class="text-white">Welcome to Card Game!!</p>
+
+                    <div class="form-group col-12">
+                        <input id="username" type="text" placeholder="name" class="col-12 pl-0 pr-0" value="">
+
+                        <select id="game-select" class="col-12">
+                            <option value="blackjack" selected>Blackjack</option>
+                            <option value="poker">Poker</option>
+                        </select>
+
+                        <button id="initgame-btn" class="btn btn-primary">Start Game</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="display-outcome" class="col-10"></div>
+    </div>
+
+    <script type="module" src="output/Controller.js"></script>
+    <script type="module" src="output/CardGameView.js"></script>
+    <script type="module" src="output/Table.js"></script>
+    <script type="module" src="output/Player.js"></script>
+    <script type="module" src="output/Deck.js"></script>
+</body>
+
+
+</html>

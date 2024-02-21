@@ -1,0 +1,26 @@
+.bg-green {
+    background-color: darkgreen;
+}
+
+.name-content {
+    font-size: 3.2rem;
+}
+
+.outer-container{
+    height: 100%;
+}
+
+.cards{
+    height: 90%;
+    width: 20%;
+    border-radius: 5%;
+}
+
+.status-descript{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.roundOver-btnstyle{
+    height: 5%;
+}
