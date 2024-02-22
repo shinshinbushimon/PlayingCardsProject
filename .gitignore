@@ -5,3 +5,4 @@ package-lock.json
 tsconfig.json
 tsconfig.tsbuildinfo
 output/
+bs-config.json
