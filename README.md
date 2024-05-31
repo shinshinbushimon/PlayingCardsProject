@@ -29,4 +29,4 @@
 ## セットアップ手順
 1. リポジトリをクローンする
    ```sh
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/shinshinbushimon/PlayingCardsProject
